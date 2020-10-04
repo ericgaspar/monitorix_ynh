@@ -1,5 +1,4 @@
-Monitorix For yunohost
-======================
+Monitorix for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/monitorix.svg)](https://ci-apps.yunohost.org/ci/apps/monitorix%20%28Community%29/lastBuild/consoleFull)  
 [![Install monitorix with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=monitorix)
@@ -7,31 +6,26 @@ Monitorix For yunohost
 > *This package allow you to install monitorix quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
-Overview
---------
+## Overview
 
 Monitorix is a free, open source, lightweight system monitoring tool designed to monitor as many services and system resources as possible. It has been created to be used under production Linux/UNIX servers, but due to its simplicity and small size can be used on embedded devices as well.
 
 **Shipped version:** 3.12
 
-Screenshots
------------
+## Screenshots
 
 ![](https://www.monitorix.org/imgs/mail.png)
 
-Demo
-----
+## Demo
 
 * [Official demo](https://www.fibranet.cat/monitorix/)
 
-Documentation
--------------
+## Documentation
 
  * Official documentation: https://www.monitorix.org/documentation.html
  * YunoHost documentation: There no other documentations, feel free to contribute.
 
-YunoHost specific features
---------------------------
+## YunoHost specific features
 
 ### Multi-users support
 
@@ -265,31 +259,13 @@ In this config we have :
 - We check some process.
 - We send every day, week, month and year a rapport.
 
-Links
------
+## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/monitorix_ynh/issues
- * App website: Link to the official website of this app
+ * App website: https://www.monitorix.org/
  * YunoHost website: https://yunohost.org/
 
----
-
-Install
--------
-
-From command line:
-
-`sudo yunohost app install -l monitorix https://github.com/YunoHost-Apps/monitorix_ynh`
-
-Upgrade
--------
-
-From command line:
-
-`sudo yunohost app upgrade monitorix -u https://github.com/YunoHost-Apps/monitorix_ynh`
-
-Developers infos
-----------------
+## Developers infos
 
 To try the testing branch, please proceed like that.
 ```
@@ -297,8 +273,3 @@ sudo yunohost app install https://github.com/YunoHost-Apps/monitorix_ynh/tree/te
 or
 sudo yunohost app upgrade monitorix -u https://github.com/YunoHost-Apps/monitorix_ynh/tree/testing --debug
 ```
-
-License
--------
-
-Monitorix is published under the GNU General Public License v2.0 License : http://www.monitorix.org/license.html
